@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
 
-CORPUS_PATH = 'docs/'
+CORPUS_PATH = '/'
 
 @st.cache_resource
 def build_pipeline():
